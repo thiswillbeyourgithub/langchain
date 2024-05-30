@@ -17,7 +17,7 @@ _DEFAULT_KNOWLEDGE_TRIPLE_EXTRACTION_TEMPLATE = (
     "EXAMPLE\n"
     "It's a state in the US. It's also the number 1 producer of gold in the US.\n\n"
     f"Output: (Nevada, is a, state){KG_TRIPLE_DELIMITER}(Nevada, is in, US)"
-    f"{KG_TRIPLE_DELIMITER}(Nevada, is the number 1 producer of, gold)\n"
+    f"{KG_TRIPLE_DELIMITER}(Nevada, is the number 1 US producer of, gold)\n"
     "END OF EXAMPLE\n\n"
     "EXAMPLE\n"
     "I'm going to the store.\n\n"
